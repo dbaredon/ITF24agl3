@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 100px;
+    background: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    border-collapse: collapse;
+    box-sizing: border-box; 
+}
+
+.card-slider {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 100px;
+  }
+
+.logo {
+    font-size: 100px;
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+    box-sizing: border-box;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+    text-decoration: none;
+
+}
+
+.homemidt1 {
+    height: 100%;
+    margin-top: 225px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items:center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+th {
+    background-color: rgb(39, 39, 219);
+    text-align: left;
+    color: white;
+}
+
+tr:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.filter-input {
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.song-row {
+    display: none;
+}
+
+.song-row.active {
+    display: table-row;
+}
+
+
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(39, 39, 219);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scrollToTopBtn:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+.homemidt2 {
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items:center;
+}
+

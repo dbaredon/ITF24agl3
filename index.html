@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums</title>
+    <link rel="stylesheet" href="music.css">
+    <script src="music.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">MUSIC ARCHIVE.</a>
+
+
+        <nav class="navbar">
+        </nav>
+    </header>
+
+    <section class="homemidt1">
+        <input type="text" id="filterInput" class="filter-input" onkeyup="filterTable()"
+            placeholder="Search for albums, artists, years, genres, etc..">
+
+        <table id="albumTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable('albumName')">Album Name</th>
+                    <th onclick="sortTable('artistName')">Artist Name</th>
+                    <th onclick="sortTable('productionYear')">Production Year</th>
+                    <th onclick="sortTable('genre')">Genre</th>git commit -m "first commit"
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section class="homemidt2">
+    </section>
+
+    <button onclick="scrollToTop()" class="scrollToTopBtn">Scroll To Top</button>
+
+    <script src="music.js"></script>
+
+</body>
+
+</html>
